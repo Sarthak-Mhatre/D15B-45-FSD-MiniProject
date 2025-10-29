@@ -231,8 +231,6 @@ const handleGoogleSignIn = () => {
             {/* Google Sign In Button */}
             <button
               onClick={handleGoogleSignIn}
-              onMouseEnter={() => setIsHovering(true)}
-              onMouseLeave={() => setIsHovering(false)}
               className="w-full bg-white border-2 border-gray-300 hover:border-blue-500 text-gray-700 font-semibold py-4 px-6 rounded-xl transition-all duration-300 hover:shadow-xl transform hover:scale-[1.02] flex items-center justify-center space-x-3 group relative overflow-hidden"
             >
               <div className="absolute inset-0 bg-gradient-to-r from-blue-50 to-indigo-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
