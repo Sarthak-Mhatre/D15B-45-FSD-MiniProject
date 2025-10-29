@@ -84,58 +84,6 @@ You can view the live preview of the project [here] https://d15-b-45-fsd-mini-pr
    ```bash
    http://localhost:5173/
    ```
-### 🎥 Need help with the setup?
-👉 Watch [this video](https://youtu.be/zVHwOmU0aqo) for a step-by-step guide.
-### Method 2: Docker Installation
-
-1. **Install Docker Desktop:**
-
-   - Download and install **Docker Desktop** from [Docker’s official website](https://www.docker.com/products/docker-desktop/).
-   - Verify installation:
-     ```bash
-     docker --version
-     ```
-
-2. **Pull Docker Images:**
-
-   ```bash
-   # Pull Backend Image
-   docker pull sahilatahar/code-sync-server:latest
-
-   # Pull Frontend Image
-   docker pull sahilatahar/code-sync-client:latest
-   ```
-
-3. **Run Docker Containers:**
-
-   ```bash
-   # Run Backend Container (Port 3000)
-   docker run -d -p 3000:3000 --name code-sync-server sahilatahar/code-sync-server:latest
-
-   # Run Frontend Container (Port 5173)
-   docker run -d -p 5173:5173 --name code-sync-client sahilatahar/code-sync-client:latest
-   ```
-
-4. **Access the application:**
-   ```bash
-   http://localhost:5173/
-   ```
-
-## 🔮 Features for Next Release
-
-- **Admin Permission:** Implement an admin permission system to manage user access levels and control over certain platform features.
-
-## 🤝 Contribute
-
-We welcome contributions to make Code Sync even better! Follow the [contribution guidelines](CONTRIBUTING.md) to get started.
-
-## 🌟 Support Us
-
-If you find this helpful or valuable, please consider 🌟 starring the repository. It helps us gain visibility and encourages further development.
-
-## 🌟 Appreciation for Resources
-
-Special thanks to:
 
 - EMKC for providing the Piston API:
 
