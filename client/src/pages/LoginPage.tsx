@@ -36,7 +36,6 @@ const FeatureCard: React.FC<{
 const LoginPage: React.FC = () => {
   const [isLoginVisible, setIsLoginVisible] = useState(false);
   const [currentFeatureIndex, setCurrentFeatureIndex] = useState(0);
-  const [isHovering, setIsHovering] = useState(false);
   const navigate = useNavigate();
 
   // Animate login section on mount
